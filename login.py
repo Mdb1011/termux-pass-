@@ -8,7 +8,9 @@ def ban():
     print("""
     
     """)
-    os.system(Fore.YELLOW+'date')
+    os.system(Fore.YELLOW+'')
+    os.system('date')
+
     print(Fore.WHITE+"")
     global cd
     cd = input('enter your passwd:')
@@ -18,6 +20,7 @@ while(1):
     try:
         if cd ==password:
             os.system('clear')
+            os.system('cd')
             break
         else:
             print(Fore.RED+"password is wrong :|")

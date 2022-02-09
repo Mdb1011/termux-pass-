@@ -1,0 +1,1 @@
+clear && cd && cd usr && cd etc && cd termux-pass- && python login.py
